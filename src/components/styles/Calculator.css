@@ -1,0 +1,37 @@
+.calculator {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  width: 500px;
+}
+
+.display {
+  color: white;
+  flex: 1;
+  text-align: end;
+  height: 2rem;
+  font-size: 2rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  background-color: rgb(137, 137, 137);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.button {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.button:nth-child(4n),
+.button:nth-child(19) {
+  background-color: rgba(255, 166, 0, 0.75);
+}
+
+.btn-0 {
+  grid-column: 1 / 3;
+}
