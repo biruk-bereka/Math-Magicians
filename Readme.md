@@ -80,6 +80,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[Set up project using create-react-app]**
+- **[Using Components to build the website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +157,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Using Components build the website]**
 - [ ] **[Using Events For Interactivity]**
 - [ ] **[Refactor with hooks]**
 - [ ] **[Full website ]**
