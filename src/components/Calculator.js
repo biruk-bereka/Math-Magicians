@@ -5,14 +5,19 @@ import './styles/Calculator.css';
 
 function Calculator() {
   const symbols = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
-  const [value, setValue] = useState(0);
-
-  const handleClick = (ev) => {
-    setValue((prevState) => calculate(prevState, ev.target.innerText));
+  const initialState = {
+    total: null,
+    next: null,
+    operation: null,
+  };
+  const [state, setState] = useState(initialState);
+  const handleClick = (e) => {
+    const result = calculate(state, e.target.innerText);
+    setState(result);
   };
 
   const display = () => {
-    const { total, next } = value;
+    const { total, next } = state;
     if (!next) return total;
     return next;
   };
