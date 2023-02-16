@@ -79,8 +79,13 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Set up project using create-react-app]**
-- **[Using Components to build the website]**
+- Set up project using create-react-app
+- Using Components to build the website
+- Create a new directory called logic inside my project
+- Copy the files calculate.js and operate.js into your logic/ directory
+- Install big.js using NPM
+- Import the files in your Calculator.js component
+- Implement click event handlers using the math logic from calculate.js and operate.js 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,8 +162,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Using Events For Interactivity]**
-- [ ] **[Refactor with hooks]**
 - [ ] **[Full website ]**
 - [ ] **[Tests ]**
 - [ ] **[Deploy ]**
