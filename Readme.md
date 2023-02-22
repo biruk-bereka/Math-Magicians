@@ -40,6 +40,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [New Features ](#new-features-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -86,6 +87,12 @@ After you're finished please remove all the comments and instructions!
 - Install big.js using NPM
 - Import the files in your Calculator.js component
 - Implement click event handlers using the math logic from calculate.js and operate.js 
+
+### New Features <a name="new-features"></a>
+  
+  - Add navbar to the page
+  - Use react router for routing
+  - Style the website
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +169,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Full website ]**
 - [ ] **[Tests ]**
 - [ ] **[Deploy ]**
 
