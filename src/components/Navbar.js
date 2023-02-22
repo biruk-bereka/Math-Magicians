@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import '../styles/Navbar.css';
 
 const links = [
   { path: '/', text: 'Home' },
@@ -7,13 +8,22 @@ const links = [
 ];
 
 const Navbar = () => (
-  <div>
-    <h1>Math Magicians</h1>
+  <div className="header">
+    <NavLink className="link" to="/"><h2>Math Magicians</h2></NavLink>
     <nav>
-      <ul>
+      <ul className="navlinks">
         {links.map((link) => (
           <li key={link.text}>
-            <NavLink to={link.path}>{link.text}</NavLink>
+            <NavLink
+              className="link"
+              to={link.path}
+              style={({ isActive }) => ({
+                color: isActive ? 'purple' : undefined,
+              })}
+            >
+              {link.text}
+
+            </NavLink>
           </li>
         ))}
       </ul>
