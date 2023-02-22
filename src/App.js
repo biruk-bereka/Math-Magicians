@@ -1,11 +1,12 @@
+import { BrowserRouter } from 'react-router-dom';
+import CalculatorApp from './components/CalculatorApp';
 import './App.css';
-import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <div>
-      <Calculator />
-    </div>
+    <BrowserRouter>
+      <CalculatorApp />
+    </BrowserRouter>
   );
 }
 
