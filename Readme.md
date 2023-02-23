@@ -100,9 +100,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Live link is not available for now
+> Here is the live version for the app
 
-- [Live Demo Link]()
+- [Math Magicians](https://math-magicians-riuh.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
